@@ -1,0 +1,50 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>BBC Sport - Results</title>
+    <link rel="stylesheet" href="sport-results.css">
+    <style>
+        body {
+            background-image: url("img/SPCW0600.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<!-- <body background="img/SPCW0600.jpg" background-repeat=no-repeat> -->
+<body>
+    <div class="hd-wrapper">
+        <div class="slider js-slider">
+            <div class="contents">
+                <img class="bbc-logo" src="img/bbc_spors_alba.svg" />
+                <div class="board js-board">
+                    <div class="heading js-heading">
+                        <h1 class="heading-text js-heading-text"></h1>
+                    </div>
+                    <ul class="data-rows js-data-rows">
+                        <!--Dynamically created rows are added here by the setup message-->
+                    </ul>
+                    <div class="footer">
+                        <h3 class="hashtag">#spors</h3>
+                        <h3 class="website">bbc.co.uk/alba</h3>
+                    </div>
+                </div>
+                <div class="competition-logo-container">
+                    <img class="competition-logo js-competition-logo"/>
+                </div>
+            </div>
+        </div>
+        <button type="submit" onclick="UserAction()">Search</button>
+    </div>
+
+    <script src="sport-results.js">
+	</script>
+
+</body>
+
+</html>
